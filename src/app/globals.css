@@ -1,26 +1,271 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ============================================
+   CriTT Premium AI Design System
+   Light + Dark Mode via CSS Custom Properties
+   ============================================ */
 
 @theme inline {
+  /* --- Fonts --- */
+  --font-headline: var(--font-heading), "Plus Jakarta Sans", sans-serif;
+  --font-body: var(--font-body), "Inter", sans-serif;
+  --font-label: var(--font-body), "Inter", sans-serif;
+  --font-display: var(--font-heading), "Plus Jakarta Sans", sans-serif;
+
+  /* --- Primary: Electric Indigo (same in both modes) --- */
+  --color-primary: #4F46E5;
+  --color-primary-container: #4f46e5;
+  --color-primary-fixed: #e2dfff;
+  --color-primary-fixed-dim: #c3c0ff;
+
+  /* --- Secondary: Violet --- */
+  --color-secondary: #6b38d4;
+  --color-secondary-container: #8455ef;
+  --color-secondary-fixed: #e9ddff;
+  --color-secondary-fixed-dim: #d0bcff;
+
+  /* --- Tertiary: Cyan --- */
+  --color-tertiary: #00505f;
+  --color-tertiary-container: #006a7c;
+  --color-tertiary-fixed: #acedff;
+  --color-tertiary-fixed-dim: #4cd7f6;
+
+  /* --- Surface System (Light defaults — overridden by .dark) --- */
+  --color-surface: var(--surface);
+  --color-surface-bright: var(--surface-bright);
+  --color-surface-dim: var(--surface-dim);
+  --color-surface-tint: #4d44e3;
+  --color-surface-variant: var(--surface-variant);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+
+  /* --- On-colors (text) --- */
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #dad7ff;
+  --color-on-primary-fixed: #0f0069;
+  --color-on-primary-fixed-variant: #3323cc;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #fffbff;
+  --color-on-secondary-fixed: #23005c;
+  --color-on-secondary-fixed-variant: #5516be;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #93e8ff;
+  --color-on-tertiary-fixed: #001f26;
+  --color-on-tertiary-fixed-variant: #004e5c;
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-on-background: var(--on-background);
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+
+  /* --- Utility colors --- */
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-inverse-surface: #283044;
+  --color-inverse-on-surface: #eef0ff;
+  --color-inverse-primary: #c3c0ff;
+
+  /* --- Border Radius --- */
+  --radius-sm: 0.5rem;
+  --radius-DEFAULT: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================
+   Light Mode Token Values (default)
+   ============================================ */
+
+:root {
+  --surface: #faf8ff;
+  --surface-bright: #faf8ff;
+  --surface-dim: #d2d9f4;
+  --surface-variant: #dae2fd;
+  --surface-container: #eaedff;
+  --surface-container-low: #f2f3ff;
+  --surface-container-high: #e2e7ff;
+  --surface-container-highest: #dae2fd;
+  --surface-container-lowest: #ffffff;
+  --on-surface: #131b2e;
+  --on-surface-variant: #464555;
+  --on-background: #131b2e;
+  --background: #faf8ff;
+  --outline: #777587;
+  --outline-variant: #c7c4d8;
 }
+
+/* ============================================
+   Dark Mode Token Values
+   ============================================ */
+
+.dark {
+  --surface: #0b1326;
+  --surface-bright: #1a2340;
+  --surface-dim: #070d1a;
+  --surface-variant: #1e293b;
+  --surface-container: #101828;
+  --surface-container-low: #0d1424;
+  --surface-container-high: #162036;
+  --surface-container-highest: #1e293b;
+  --surface-container-lowest: #080e1c;
+  --on-surface: #e2e8f0;
+  --on-surface-variant: #94a3b8;
+  --on-background: #e2e8f0;
+  --background: #0b1326;
+  --outline: #475569;
+  --outline-variant: #334155;
+}
+
+/* ============================================
+   Glassmorphism System (Light)
+   ============================================ */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.03),
+    0 4px 12px rgba(0, 0, 0, 0.04),
+    0 16px 40px rgba(0, 0, 0, 0.04);
+}
+
+.ai-card {
+  position: relative;
+  box-shadow: 0 0 20px rgba(79, 70, 229, 0.15);
+}
+
+.ai-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #4f46e5, #6b38d4, #00aced);
+  border-radius: 999px 999px 0 0;
+}
+
+/* ============================================
+   Glassmorphism System (Dark Override)
+   ============================================ */
+
+.dark .glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.20),
+    0 4px 12px rgba(0, 0, 0, 0.15),
+    0 16px 40px rgba(0, 0, 0, 0.10);
+}
+
+.dark .ai-card {
+  box-shadow: 0 0 25px rgba(79, 70, 229, 0.30);
+}
+
+.dark .ai-card::before {
+  height: 2px;
+  background: linear-gradient(90deg, #6366f1, #8b5cf6, #22d3ee);
+}
+
+/* ============================================
+   Background Patterns (Light)
+   ============================================ */
+
+.mesh-bg {
+  background-color: var(--surface);
+  background-image:
+    radial-gradient(at 0% 0%, rgba(79, 70, 229, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(107, 56, 212, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(0, 172, 237, 0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(79, 70, 229, 0.1) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+.dot-grid {
+  background-image: radial-gradient(#dae2fd 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.dot-grid-subtle {
+  background-image: radial-gradient(#4f46e5 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+  mask-image: radial-gradient(ellipse at center, black, transparent 80%);
+}
+
+.radial-glow {
+  background: radial-gradient(circle at 50% -20%, rgba(79, 70, 229, 0.15) 0%, transparent 60%);
+}
+
+/* ============================================
+   Background Patterns (Dark Override)
+   ============================================ */
+
+.dark .mesh-bg {
+  background-color: var(--surface);
+  background-image:
+    radial-gradient(at 0% 0%, rgba(79, 70, 229, 0.25) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(107, 56, 212, 0.20) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(0, 172, 237, 0.15) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(79, 70, 229, 0.15) 0px, transparent 50%);
+}
+
+.dark .dot-grid {
+  background-image: radial-gradient(rgba(79, 70, 229, 0.3) 0.5px, transparent 0.5px);
+  background-size: 32px 32px;
+}
+
+.dark .dot-grid-subtle {
+  background-image: radial-gradient(rgba(79, 70, 229, 0.4) 0.5px, transparent 0.5px);
+}
+
+.dark .radial-glow {
+  background: radial-gradient(circle at 50% -20%, rgba(79, 70, 229, 0.30) 0%, transparent 60%);
+}
+
+/* ============================================
+   Gradient Utilities (same in both modes)
+   ============================================ */
+
+.text-gradient-ai {
+  background: linear-gradient(135deg, #4F46E5, #8B5CF6, #06B6D4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-ai {
+  background: linear-gradient(135deg, #4F46E5, #7C3AED, #06B6D4);
+}
+
+/* ============================================
+   Base Typography
+   ============================================ */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), "Inter", sans-serif;
+  color: var(--on-surface);
+  background-color: var(--surface);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline), "Plus Jakarta Sans", sans-serif;
+  color: var(--on-surface);
+}
+
+/* ============================================
+   Smooth Theme Transition
+   ============================================ */
+
+*, *::before, *::after {
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
