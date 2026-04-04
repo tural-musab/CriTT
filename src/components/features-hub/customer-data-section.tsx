@@ -24,7 +24,7 @@ export function CustomerDataSection() {
     <section className="bg-surface-container text-white py-24 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
         <Image
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWIPn896yrvBpXu7CKIok6BDxAVuY5ZbYnHk4AmmrbzmE7DawdVPOF4Q3KhaJndMv7LmTiw9-AXH8hJ45VuleQ_cxIMsThawqS05qoAVQDudi8gDdj4Nvai9-OFgS0aR5BXPnFYXUaYPHTrJGVHAx-gy4xcXiZfHicMOAPDlkijZyhX7zvgTT019POlgC7_341Cy5-7FidnKbD2xDZq3SaFPZaabvSVEfAiobfn0sY8yLwexINslUKPw2G9kjqKRivyAXSHb-cZxY"
+          src="/images/data-visualization.webp"
           alt="Data visualization"
           fill
           sizes="50vw"

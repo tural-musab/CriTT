@@ -42,7 +42,7 @@ export default function AiSesliAjanlarPage() {
         highlightWord="Devrimleştirin"
         subtitle="7/24 kesintisiz iletişim. 31+ dil desteği. Doğal dil işleme ile akıllı müşteri karşılama. İş alanınıza özel eğitilebilir AI operatörler."
         icon={Sparkles}
-        imageSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuBOt4IJiXpatuHojlwH6Gt2a1TwJ9Y_Ua6kbkDAzYFyhkBWHXQaWtucli6MpMn3RX9mlsB8OOcdG7Vg18ojh9F0JjOW6UPA1hBPGazfJFDvq8R8uljqgCkEOTV2dCSVSIRN0NuDbX0r-HRp1lF_ijAtYQzeQIIwkULL70R94pwhuy_qsnI7EPj1acYYgQsNdCNgIiCQG5RX2dhWSFQiknDcKalSQfX0RgwRM8QAYTNDQXUwNFZJuBq25ou6Z0CKpVZd8xs1d_F3r2U"
+        imageSrc="/images/ai-visualization.webp"
         imageAlt="AI Voice Agent Dashboard"
       />
 

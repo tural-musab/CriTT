@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { LucideIcon } from "lucide-react";
 
 interface FeatureDetailHeroProps {
@@ -41,9 +42,9 @@ export function FeatureDetailHero({
             {subtitle}
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full font-headline font-bold shadow-xl shadow-primary/20 hover:opacity-90 transition-all active:scale-95">
+            <Link href="/iletisim" className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full font-headline font-bold shadow-xl shadow-primary/20 hover:opacity-90 transition-all active:scale-95">
               Demo Talep Et
-            </button>
+            </Link>
             <button className="glass-card px-8 py-4 rounded-full font-headline font-bold border border-white/40 hover:bg-white/40 transition-all active:scale-95">
               Nasıl Çalışır?
             </button>

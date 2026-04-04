@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Brain } from "lucide-react";
 
 export function Hero() {
@@ -20,9 +21,9 @@ export function Hero() {
             hizmet ekosistemi.
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full font-headline font-bold shadow-xl shadow-primary/20 hover:opacity-90 transition-all active:scale-95">
+            <Link href="/iletisim" className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full font-headline font-bold shadow-xl shadow-primary/20 hover:opacity-90 transition-all active:scale-95">
               Demo Talep Et
-            </button>
+            </Link>
             <button className="glass-card px-8 py-4 rounded-full font-headline font-bold border border-white/40 hover:bg-white/40 transition-all active:scale-95">
               Ürünü Keşfet
             </button>
@@ -32,7 +33,7 @@ export function Hero() {
         <div className="relative">
           <div className="glass-card rounded-[2rem] p-4 shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700">
             <Image
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhQWJkEQyVF_DjaaCARZuOVt5firet2e2LsnVKuSGPuR8qOmlbY6li4dOhPC2aOvaSB0P7bnEeM-yPOVMRhSa6ai5wGOm5xswPPERp6SArZBYuKhHTPVozHiuSrUMfAr1OZ8V0ycRJI-mgYW3FFib5gUFf-unhgTXfNjVConLag95VNirHBOwVwv7ipJgDtOiVZvt4WnPxRJdLRoRsimIbgx0IlTmeyjo-eDUbrK1z7S6Hvro-l1pq2Gub70KptCm0fNTwclZBJQ8"
+              src="/images/hero-dashboard.webp"
               alt="CRM Dashboard Mockup"
               width={640}
               height={400}

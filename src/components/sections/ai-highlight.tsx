@@ -39,7 +39,7 @@ export function AiHighlight() {
         <div className="relative">
           <div className="glass-card p-1 rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOt4IJiXpatuHojlwH6Gt2a1TwJ9Y_Ua6kbkDAzYFyhkBWHXQaWtucli6MpMn3RX9mlsB8OOcdG7Vg18ojh9F0JjOW6UPA1hBPGazfJFDvq8R8uljqgCkEOTV2dCSVSIRN0NuDbX0r-HRp1lF_ijAtYQzeQIIwkULL70R94pwhuy_qsnI7EPj1acYYgQsNdCNgIiCQG5RX2dhWSFQiknDcKalSQfX0RgwRM8QAYTNDQXUwNFZJuBq25ou6Z0CKpVZd8xs1d_F3r2U"
+              src="/images/ai-visualization.webp"
               alt="AI Visualization"
               width={640}
               height={400}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface SolutionDetailHeroProps {
   badge: string;
@@ -38,9 +39,9 @@ export function SolutionDetailHero({
           </h1>
           <p className="text-lg text-on-surface-variant leading-relaxed mb-8">{subtitle}</p>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full font-headline font-bold shadow-xl shadow-primary/30 hover:opacity-90 transition-all active:scale-95">
+            <Link href="/iletisim" className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full font-headline font-bold shadow-xl shadow-primary/30 hover:opacity-90 transition-all active:scale-95">
               Demo Talep Et
-            </button>
+            </Link>
             <button className="border border-white/20 bg-white/5 backdrop-blur-sm text-white px-8 py-4 rounded-full font-headline font-bold hover:bg-white/10 transition-all active:scale-95">
               Çözümleri İncele
             </button>

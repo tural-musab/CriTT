@@ -36,7 +36,7 @@ export default function KamuBelediyePage() {
         title="Vatandaş Odaklı Dijital Belediye CRM"
         highlightWord="Dijital"
         subtitle="Vatandaş başvurularını uçtan uca yönetin, departmanlar arası koordinasyonu güçlendirin, şeffaflığı artırın."
-        imageSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuA4sb5W7btSvkrvyxg9sC0LqNZAjR5nZn6rL7IlgvlSaehB7ZtNm3DEPGWYRSMdJLodMcVACKyfEqPAd-73FZ42rfA_XMyOWuF1hwgH2iArw8szrDD44LW2MbmF00WvIl6wTPUePr6Be06hpn8_fBpvPFjKbRtk5CpmsAk4120tfmA5f4ADXQ2y6FmQEVn4uo6KH_cB_bltSaPLkhKSUm4-v6XPEZzmU6HzP4_rYLsgLM4EdRC1KTMQx4KLaVxL9ZAzV37tQR-i3u4"
+        imageSrc="/images/sector-kamu.webp"
         imageAlt="Kamu & Belediye CRM Dashboard"
       />
 

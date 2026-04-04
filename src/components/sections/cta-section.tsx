@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function CtaSection() {
   return (
     <section className="py-24 px-8 max-w-7xl mx-auto">
@@ -13,9 +15,9 @@ export function CtaSection() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-6 relative z-10">
-          <button className="bg-white text-primary px-10 py-5 rounded-full font-headline font-extrabold text-lg shadow-xl hover:scale-105 transition-all">
+          <Link href="/iletisim" className="bg-white text-primary px-10 py-5 rounded-full font-headline font-extrabold text-lg shadow-xl hover:scale-105 transition-all">
             Demo Talep Et
-          </button>
+          </Link>
           <button className="border-2 border-white/40 text-white px-10 py-5 rounded-full font-headline font-extrabold text-lg hover:bg-white/10 transition-all">
             Bize Ulaşın
           </button>

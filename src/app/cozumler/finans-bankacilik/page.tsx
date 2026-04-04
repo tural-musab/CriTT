@@ -37,7 +37,7 @@ export default function FinansBankacilikPage() {
         title="Finansal Hizmetlerde Yapay Zeka Destekli CRM"
         highlightWord="Yapay Zeka"
         subtitle="Yüksek hacimli müşteri taleplerini yönetin, uyumluluk gereksinimlerini karşılayın, 7/24 AI destekli hizmet sunun."
-        imageSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuBbSJrn6DSEiMFo7uRwji7ags2LFG3pRs70XDGFV1IVYa-o5N-GdhXVJDn6SKWViMs9gdKJm54kAXMB1Mxmc644PCa5QXKi9ekTV5yHA21LGyCleWx6MkfMlCXk1r3aXmuxJWuI4CvuUbpiocSjOqnFhrihr7YcEKA6N7EUbh9LtqzGfUYlunEFycj972Nn2puMeY-hVUx6oeMtyuxDvCzw2PtFLQDD1XA-m5mVKbmS7g293hygdR0jbco_1M57ejDRSNQHEwEBS-Q"
+        imageSrc="/images/sector-finans.webp"
         imageAlt="Finans & Bankacılık CRM Dashboard"
       />
 
