@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Tailwind v4: class-based dark mode (next-themes adds .dark to <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* ============================================
    CriTT Premium AI Design System
    Light + Dark Mode via CSS Custom Properties
@@ -268,4 +271,12 @@ h1, h2, h3, h4, h5, h6 {
 
 *, *::before, *::after {
   transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

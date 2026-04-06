@@ -11,7 +11,7 @@ const productLinks = [
 const companyLinks = [
   { label: "Hakkımızda", href: "/hakkimizda" },
   { label: "Blog", href: "/blog" },
-  { label: "Kariyer", href: "#" },
+  { label: "Kariyer", href: "/kariyer" },
   { label: "İletişim", href: "/iletisim" },
 ];
 

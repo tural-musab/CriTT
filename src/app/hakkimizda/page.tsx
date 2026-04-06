@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { AboutHero } from "@/components/about/about-hero";
 import { VisionMission } from "@/components/about/vision-mission";
 import { ValuesSection } from "@/components/about/values-section";
+import { TeamSection } from "@/components/about/team-section";
 import { AboutCta } from "@/components/about/about-cta";
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function HakkimizdaPage() {
       <AboutHero />
       <VisionMission />
       <ValuesSection />
+      <TeamSection />
       <AboutCta />
     </div>
   );

@@ -34,11 +34,12 @@ export function Hero() {
           <div className="glass-card rounded-[2rem] p-4 shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700">
             <Image
               src="/images/hero-dashboard.webp"
-              alt="CRM Dashboard Mockup"
+              alt="CriTT CRM dashboard — müşteri yönetimi, AI analitik ve çok kanallı iletişim ekranı"
               width={640}
               height={400}
               className="w-full h-auto rounded-2xl shadow-inner"
               priority
+              quality={90}
             />
           </div>
           <div className="absolute -bottom-6 -left-6 glass-card ai-card p-6 rounded-2xl max-w-[240px]">
