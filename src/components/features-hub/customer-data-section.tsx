@@ -24,7 +24,7 @@ export function CustomerDataSection() {
     <section className="bg-surface-container text-white py-24 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
         <Image
-          src="/images/data-visualization.webp"
+          src="/images/data-visualization.jpg"
           alt="Data visualization"
           fill
           sizes="50vw"

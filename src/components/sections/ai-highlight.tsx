@@ -39,7 +39,7 @@ export function AiHighlight() {
         <div className="relative">
           <div className="glass-card p-1 rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/ai-visualization.webp"
+              src="/images/ai-visualization.jpg"
               alt="AI Visualization"
               width={640}
               height={400}
