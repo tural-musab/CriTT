@@ -28,7 +28,7 @@ const sectors: Sector[] = [
       "Vatandaş başvurularını merkezi takip, departmanlar arası koordinasyon, saha ekipleri yönetimi ve tam şeffaflık.",
     modules: ["Bilet Yönetimi", "İş Akışı", "WhatsApp", "AI Kategorizasyon", "Saha & Mobil"],
     imageSrc:
-      "/images/sector-kamu.webp",
+      "/images/sector-kamu.jpg",
     imageAlt: "Kamu Kurumları",
     href: "/cozumler/kamu-belediye",
   },
@@ -39,7 +39,7 @@ const sectors: Sector[] = [
       "Yüksek hacimli müşteri taleplerini yönetin, uyumluluk gereksinimlerini karşılayın, 7/24 AI destekli hizmet sunun.",
     modules: ["AI Sesli Ajanlar", "Konuşma Zekası", "Yetkilendirme", "SLA Yönetimi", "Raporlama"],
     imageSrc:
-      "/images/sector-finans.webp",
+      "/images/sector-finans.jpg",
     imageAlt: "Finans & Bankacılık",
     href: "/cozumler/finans-bankacilik",
   },
@@ -50,7 +50,7 @@ const sectors: Sector[] = [
       "Hasar bildirimi, poliçe süreçleri ve saha tespit ekiplerini tek platformda koordine edin.",
     modules: ["Bilet Yönetimi", "Dinamik Formlar", "Mobil Uygulama", "İş Akışı", "Otomatik Arama"],
     imageSrc:
-      "/images/sector-sigorta.webp",
+      "/images/sector-sigorta.jpg",
     imageAlt: "Sigorta Şirketleri",
     href: "/cozumler/sigorta",
   },
@@ -61,7 +61,7 @@ const sectors: Sector[] = [
       "Reklam lead'lerini takip edin, sipariş süreçlerini yönetin, WhatsApp üzerinden müşteri deneyimi sunun.",
     modules: ["Veri Toplama", "WhatsApp", "Satış & Pazarlama", "AI Sesli Ajanlar", "Toplu İletişim"],
     imageSrc:
-      "/images/sector-perakende.webp",
+      "/images/sector-perakende.jpg",
     imageAlt: "Perakende & E-Ticaret",
     href: "/cozumler/perakende-eticaret",
   },
@@ -72,7 +72,7 @@ const sectors: Sector[] = [
       "Arıza bildirimi, saha müdahale koordinasyonu ve planlı kesinti bilgilendirmelerini otomatikleştirin.",
     modules: ["Bilet Yönetimi", "İş Akışı", "Saha & Mobil", "AI Kategorizasyon", "Toplu İletişim"],
     imageSrc:
-      "/images/sector-enerji.webp",
+      "/images/sector-enerji.jpg",
     imageAlt: "Enerji & Altyapı",
     href: "/cozumler/enerji-altyapi",
   },
@@ -83,7 +83,7 @@ const sectors: Sector[] = [
       "Yüksek hacimli çağrıları yönetin, operatör performansını izleyin, kalite kontrolü AI ile otomatikleştirin.",
     modules: ["Çağrı Merkezi", "AI Sesli Ajanlar", "Konuşma Zekası", "Mola Yönetimi", "Raporlama"],
     imageSrc:
-      "/images/sector-cagri.webp",
+      "/images/sector-cagri.jpg",
     imageAlt: "Çağrı Merkezleri & BPO",
     href: "/cozumler/cagri-merkezi-bpo",
   },

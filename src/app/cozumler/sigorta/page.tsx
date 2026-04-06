@@ -34,7 +34,7 @@ export default function SigortaPage() {
         title="Hasar Süreçlerinde Uçtan Uca Otomasyon"
         highlightWord="Otomasyon"
         subtitle="Hasar bildirimlerini hızlandırın, saha koordinasyonunu güçlendirin, müşteri memnuniyetini artırın."
-        imageSrc="/images/sector-sigorta.webp"
+        imageSrc="/images/sector-sigorta.jpg"
         imageAlt="Sigorta CRM Dashboard"
       />
 

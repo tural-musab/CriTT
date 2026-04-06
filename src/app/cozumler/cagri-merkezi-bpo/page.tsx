@@ -35,7 +35,7 @@ export default function CagriMerkeziBpoPage() {
         title="Çağrı Merkezi Operasyonlarınızı AI ile Optimize Edin"
         highlightWord="AI"
         subtitle="Çağrı hacmini yapay zeka ile yönetin, agent performansını artırın, kalite standartlarını yükseltin."
-        imageSrc="/images/sector-cagri.webp"
+        imageSrc="/images/sector-cagri.jpg"
         imageAlt="Çağrı Merkezi & BPO CRM Dashboard"
       />
 

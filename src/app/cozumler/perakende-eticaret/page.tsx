@@ -33,7 +33,7 @@ export default function PerakendeEticaretPage() {
         title="Satış Süreçlerinizi Yapay Zeka ile Hızlandırın"
         highlightWord="Yapay Zeka"
         subtitle="Lead'den satışa tüm süreci yönetin, müşteri deneyimini kişiselleştirin, dönüşüm oranlarını artırın."
-        imageSrc="/images/sector-perakende.webp"
+        imageSrc="/images/sector-perakende.jpg"
         imageAlt="Perakende & E-Ticaret CRM Dashboard"
       />
 

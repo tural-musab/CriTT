@@ -4,32 +4,32 @@ const sectors = [
   {
     title: "Kamu",
     alt: "Kamu Sektörü",
-    src: "/images/sector-kamu.webp",
+    src: "/images/sector-kamu.jpg",
   },
   {
     title: "Finans",
     alt: "Finans Sektörü",
-    src: "/images/sector-finans.webp",
+    src: "/images/sector-finans.jpg",
   },
   {
     title: "Sigorta",
     alt: "Sigorta Sektörü",
-    src: "/images/sector-sigorta.webp",
+    src: "/images/sector-sigorta.jpg",
   },
   {
     title: "Perakende",
     alt: "Perakende Sektörü",
-    src: "/images/sector-perakende.webp",
+    src: "/images/sector-perakende.jpg",
   },
   {
     title: "Enerji",
     alt: "Enerji Sektörü",
-    src: "/images/sector-enerji.webp",
+    src: "/images/sector-enerji.jpg",
   },
   {
     title: "Çağrı Merkezleri",
     alt: "Çağrı Merkezleri",
-    src: "/images/sector-cagri.webp",
+    src: "/images/sector-cagri.jpg",
   },
 ];
 

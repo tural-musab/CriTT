@@ -33,7 +33,7 @@ export default function EnerjiAltyapiPage() {
         title="Arıza Yönetiminde Dijital Dönüşüm"
         highlightWord="Dijital Dönüşüm"
         subtitle="Arıza bildirimlerini hızla yönetin, saha ekiplerini koordine edin, kesinti sürecini minimize edin."
-        imageSrc="/images/sector-enerji.webp"
+        imageSrc="/images/sector-enerji.jpg"
         imageAlt="Enerji & Altyapı CRM Dashboard"
       />
 
